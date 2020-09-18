@@ -1,0 +1,13 @@
+C:\Users\LENOVO\Desktop\Лабораторная работа 2\bin\Debug\netcoreapp3.1\Лабораторная работа 2.exe
+C:\Users\LENOVO\Desktop\Лабораторная работа 2\bin\Debug\netcoreapp3.1\Лабораторная работа 2.deps.json
+C:\Users\LENOVO\Desktop\Лабораторная работа 2\bin\Debug\netcoreapp3.1\Лабораторная работа 2.runtimeconfig.json
+C:\Users\LENOVO\Desktop\Лабораторная работа 2\bin\Debug\netcoreapp3.1\Лабораторная работа 2.runtimeconfig.dev.json
+C:\Users\LENOVO\Desktop\Лабораторная работа 2\bin\Debug\netcoreapp3.1\Лабораторная работа 2.dll
+C:\Users\LENOVO\Desktop\Лабораторная работа 2\bin\Debug\netcoreapp3.1\Лабораторная работа 2.pdb
+C:\Users\LENOVO\Desktop\Лабораторная работа 2\obj\Debug\netcoreapp3.1\Лабораторная работа 2.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\Лабораторная работа 2\obj\Debug\netcoreapp3.1\Лабораторная работа 2.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\Лабораторная работа 2\obj\Debug\netcoreapp3.1\Лабораторная работа 2.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\Лабораторная работа 2\obj\Debug\netcoreapp3.1\Лабораторная работа 2.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Лабораторная работа 2\obj\Debug\netcoreapp3.1\Лабораторная работа 2.dll
+C:\Users\LENOVO\Desktop\Лабораторная работа 2\obj\Debug\netcoreapp3.1\Лабораторная работа 2.pdb
+C:\Users\LENOVO\Desktop\Лабораторная работа 2\obj\Debug\netcoreapp3.1\Лабораторная работа 2.genruntimeconfig.cache
