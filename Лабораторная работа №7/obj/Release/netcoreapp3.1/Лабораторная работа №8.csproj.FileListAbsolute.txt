@@ -1,0 +1,13 @@
+C:\Users\LENOVO\Desktop\Технологии програмирования\Лабораторная работа №8\obj\Release\netcoreapp3.1\Лабораторная работа №8.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\Технологии програмирования\Лабораторная работа №8\obj\Release\netcoreapp3.1\Лабораторная работа №8.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\Технологии програмирования\Лабораторная работа №8\obj\Release\netcoreapp3.1\Лабораторная работа №8.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\Технологии програмирования\Лабораторная работа №8\obj\Release\netcoreapp3.1\Лабораторная работа №8.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Технологии програмирования\Лабораторная работа №8\bin\Release\netcoreapp3.1\Лабораторная работа №8.exe
+C:\Users\LENOVO\Desktop\Технологии програмирования\Лабораторная работа №8\bin\Release\netcoreapp3.1\Лабораторная работа №8.deps.json
+C:\Users\LENOVO\Desktop\Технологии програмирования\Лабораторная работа №8\bin\Release\netcoreapp3.1\Лабораторная работа №8.runtimeconfig.json
+C:\Users\LENOVO\Desktop\Технологии програмирования\Лабораторная работа №8\bin\Release\netcoreapp3.1\Лабораторная работа №8.runtimeconfig.dev.json
+C:\Users\LENOVO\Desktop\Технологии програмирования\Лабораторная работа №8\bin\Release\netcoreapp3.1\Лабораторная работа №8.dll
+C:\Users\LENOVO\Desktop\Технологии програмирования\Лабораторная работа №8\bin\Release\netcoreapp3.1\Лабораторная работа №8.pdb
+C:\Users\LENOVO\Desktop\Технологии програмирования\Лабораторная работа №8\obj\Release\netcoreapp3.1\Лабораторная работа №8.dll
+C:\Users\LENOVO\Desktop\Технологии програмирования\Лабораторная работа №8\obj\Release\netcoreapp3.1\Лабораторная работа №8.pdb
+C:\Users\LENOVO\Desktop\Технологии програмирования\Лабораторная работа №8\obj\Release\netcoreapp3.1\Лабораторная работа №8.genruntimeconfig.cache
