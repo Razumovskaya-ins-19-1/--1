@@ -1,0 +1,64 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System. IO; 
+
+namespace Лабораторная_работа__10
+{
+    class Библиотека
+    { 
+        float[,] matrix;
+        int m;
+        int n;
+       
+        public void Generator( int M, int N)
+        {
+            m = M;
+            n = N;
+           matrix = new float[m, n];
+            Random rr = new Random();
+            for (int i = 0; i < m; i++)
+                for (int j = 0; j < n; j++)
+                    matrix[i, j] = (float)rr.Next(1000);
+        }
+        public void Save(string pName)
+        {
+            if (matrix.Length > 0)
+                if (File.Exists(pName))
+                    File.Delete(pName);
+            FileInfo new_file = new FileInfo(pName);
+            TextWriter potok = new_file.CreateText();
+            potok.WriteLine(m.ToString());
+            potok.WriteLine(n.ToString());
+            for (int i = 0; i < m; i++)
+                for (int j = 0; j < n; j++)
+                    potok.WriteLine(i.ToString() + " " + j.ToString() + " " + matrix[i, j].ToString());
+            potok.Close();
+        }
+        
+       public float Sum(string pName)
+        {
+            float k = 0;
+            if (File.Exists(pName))
+            {
+                TextReader rf = File.OpenText(pName);
+                m = Convert.ToInt32(rf.ReadLine());
+                n = Convert.ToInt32(rf.ReadLine());
+                matrix = new float[m, n];
+                string line;
+                string[] stroka;
+                for (int h = 0; h < m * n; h++)
+                {
+                    line = rf.ReadLine();
+                    stroka = line.Split(new char[] { ' ' }, 3);
+                    if ((Convert.ToInt32(stroka[0]) + Convert.ToInt32(stroka[1])) % 2 == 0)
+                    {
+                        k += Convert.ToSingle(stroka[2]);
+
+                    }
+                }
+            }
+            return k;
+        }
+    }
+}
