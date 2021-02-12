@@ -1,0 +1,10 @@
+C:\Users\LENOVO\Desktop\Технологии программирования 2.0\Лабораторная работа №12\bin\Debug\Лабораторная работа №12.exe.config
+C:\Users\LENOVO\Desktop\Технологии программирования 2.0\Лабораторная работа №12\bin\Debug\Лабораторная работа №12.exe
+C:\Users\LENOVO\Desktop\Технологии программирования 2.0\Лабораторная работа №12\bin\Debug\Лабораторная работа №12.pdb
+C:\Users\LENOVO\Desktop\Технологии программирования 2.0\Лабораторная работа №12\obj\Debug\Лабораторная работа №12.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\Технологии программирования 2.0\Лабораторная работа №12\obj\Debug\Лабораторная_работа__12.Properties.Resources.resources
+C:\Users\LENOVO\Desktop\Технологии программирования 2.0\Лабораторная работа №12\obj\Debug\Лабораторная работа №12.csproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\Технологии программирования 2.0\Лабораторная работа №12\obj\Debug\Лабораторная работа №12.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Технологии программирования 2.0\Лабораторная работа №12\obj\Debug\Лабораторная работа №12.exe
+C:\Users\LENOVO\Desktop\Технологии программирования 2.0\Лабораторная работа №12\obj\Debug\Лабораторная работа №12.pdb
+C:\Users\LENOVO\Desktop\Технологии программирования 2.0\Лабораторная работа №12\obj\Debug\Лабораторная_работа__12.Form1.resources
