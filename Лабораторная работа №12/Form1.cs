@@ -25,8 +25,11 @@ namespace Лабораторная_работа__12
             textBox2.Text = Convert.ToString(w);
             t = e.Y;
             textBox3.Text = Convert.ToString(t);
-            if (Math.Cos(w + Math.E) == 0 | t==0)
+            if (Math.Cos(w + Math.E) == 0 | t == 0)
+            {
                 textBox4.Text = "Error";
+                Text = "Error";
+            }
             else
             {
                 res = Math.Pow(F, Math.Abs(Math.E)) / Math.Cos(w + Math.E) - Math.E + Math.Abs(Math.Sin(w / t)) / (25 + Math.Sqrt(Math.Abs(Math.E)));
