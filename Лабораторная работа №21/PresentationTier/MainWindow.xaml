@@ -1,0 +1,59 @@
+﻿<Window x:Class="PresentationTier.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PresentationTier"
+        mc:Ignorable="d"
+        Title="{Binding НаименованиеТурАгенства}" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen" Background="Chartreuse">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Name="GridForTovar" DataContext="{Binding ElementName=MainList, Path=SelectedItem}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Margin="5" Grid.Row="0" Text="Транспорт: "/>
+            <TextBox Margin="5" Grid.Row="0" Grid.Column="1" Text="{Binding ТранспортПоездки}"/>
+            <TextBlock Margin="5" Grid.Row="1" Text="Пункт отбытия: "/>
+            <TextBox Margin="5" Grid.Row="1" Grid.Column="1" Text="{Binding ПунктОтправкиПоездки}"/>
+            <TextBlock Margin="5" Grid.Row="2" Text="Пункт назначения: "/>
+            <TextBox Margin="5" Grid.Row="2" Grid.Column="1" Text="{Binding ПунктНазначенияПоездки}"/>
+            <TextBlock Margin="5" Grid.Row="3" Text="Стоимость: "/>
+            <TextBox Margin="5" Grid.Row="3" Grid.Column="1" Text="{Binding СтоимостьПоездки}"/>
+        </Grid>
+        <Grid Grid.Row="1" Name="GridForCollection">
+            <ListBox Name="MainList" ItemsSource="{Binding СписокПоездок, Mode=OneWay}" 
+                     DisplayMemberPath="ПредставлениеПоездки" Background="AliceBlue" Margin="10"/>
+        </Grid>
+        <Grid Grid.Row="2" Name="GridForItog">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Margin="5" Text="Количество автобусных рейсов: " Grid.Column="0" HorizontalAlignment="Right"/>
+            <TextBox Margin="5" Grid.Column="1" Text="{Binding Path=КоличествоАвтобусныхРейсов, Mode=OneWay}"/>
+            <TextBlock Margin="5" Grid.Row="1" Text="Суммарная стоимость билетов на самолёт: "  Grid.Column="0" HorizontalAlignment="Right"/>
+            <TextBox Margin="5" Grid.Row="1" Grid.Column="1" Text="{Binding Path=СуммарнаяСтоимостьбилетовНаСамолёт, Mode=OneWay}"/>
+            <TextBlock Margin="5" Grid.Row="2" Text="Самый дорогой билет на самолёт: "  Grid.Column="0" HorizontalAlignment="Right"/>
+            <TextBox Margin="5" Grid.Row="2" Grid.Column="1" Text="{Binding Path=СамыйДорогойбилет, Mode=OneWay}"/>
+        </Grid>
+    </Grid>
+</Window>
